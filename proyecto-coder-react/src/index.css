@@ -15,7 +15,7 @@
 
 a {
   font-weight: 500;
-  color: #646cff;
+  color: aliceblue;
   text-decoration: inherit;
 }
 a:hover {
@@ -25,14 +25,30 @@ a:hover {
 body {
   margin: 0;
   display: flex;
+  flex-direction: column;
   place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  width:100%;
+  color: aquamarine;
 }
 
 h1 {
-  font-size: 3.2em;
+  font-size: 3 em;
   line-height: 1.1;
+  color: aliceblue;
+}
+
+
+li {
+  
+  padding-left: 5px;
+  padding-right: 5px;
+  display: inline-flex;
+  color: aliceblue;
+}
+
+ul {
+  display: inline-flex;
+  place-items: center;
 }
 
 button {
