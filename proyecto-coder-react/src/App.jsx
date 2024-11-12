@@ -1,6 +1,9 @@
 
 import Navegation from './components/nav'
 import './App.css'
+import ItemListContainer from './components/itemListContainer'
+
+
 
 
 
@@ -9,7 +12,10 @@ function App() {
 
   return (
     <>
-    <Navegation/>
+    <Navegation/> 
+    <ItemListContainer greeting="Bienvenido a la tienda" ></ItemListContainer>
+    
+    
           
     </>
   )
